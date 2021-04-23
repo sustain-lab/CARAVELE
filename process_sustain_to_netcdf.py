@@ -116,7 +116,7 @@ ds['eta_wire'].attrs['units'] = 'm'
 ds['eta_udm'].attrs['name'] = 'Water elevation from UDM'
 ds['eta_udm'].attrs['units'] = 'm'
 
-ds.attrs['experiment_name'] = 'CARAVALE'
+ds.attrs['experiment_name'] = 'CARAVELE'
 ds.attrs['experiment_time'] = start_times[0].strftime('%Y-%m-%d_%H:%M:%S')
 ds.attrs['water_type'] = 'seawater'
 ds.attrs['initial_water_depth'] = 0.81
@@ -125,4 +125,4 @@ ds.attrs['facility'] = 'SUSTAIN Laboratory'
 ds.attrs['tank'] = 'SUSTAIN'
 ds.attrs['contact'] = 'Milan Curcic <mcurcic@miami.edu>'
 
-ds.to_netcdf('caravale_sustain.nc', 'w', 'NETCDF4')
+ds.to_netcdf('caravele_sustain.nc', 'w', 'NETCDF4')
