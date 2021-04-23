@@ -1,0 +1,5 @@
+jupyter
+matplotlib
+netCDF4
+scipy
+xarray
